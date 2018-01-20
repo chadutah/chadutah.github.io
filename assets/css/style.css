@@ -144,9 +144,9 @@ h2 {
 }
 p {
     color: dimgray;
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 2em;
+    font-size: 22px;
+    font-family:  Tangerine, Times, serif;
+    line-height: 1.5em;
     z-index: 1;
 }
 h3 {
@@ -210,4 +210,33 @@ a:hover {
 }
 a img:hover {
     background-color: crimson;
+}
+img.imageBlock {
+    width: 240px;
+    height: 180px;
+}
+.blockResize {
+    width: 150px;
+    height: 150px;
+
+}
+.imageBlock {
+    display: block;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    margin: 30px;
+}
+.text-block {
+    position: absolute;
+    background-color: cadetblue;
+    width:140px;
+    height: 54;
+    color: white;
+    z-index: 2;
+    bottom: 1px;
+    text-align: center;
+    margin: 25px;
 }
