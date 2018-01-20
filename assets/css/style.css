@@ -211,10 +211,6 @@ a:hover {
 a img:hover {
     background-color: crimson;
 }
-img.imageBlock {
-    width: 240px;
-    height: 180px;
-}
 .blockResize {
     width: 150px;
     height: 150px;
