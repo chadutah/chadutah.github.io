@@ -53,7 +53,7 @@ html, body {
     size: 100%;
     margin: 0;
     background-color: whitesmoke;
-    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    background-image: linear-gradient(to right, #004b48 0%, #00b7ff 31%, #1b0036 100%);
 }
 .page-wrap {
     height: 100%;
@@ -72,13 +72,15 @@ html, body {
 header {
     display: inline-block;
     align-content: center;
-    width: 960px;
+    width: 1100px;
     height: 50px;
     padding-left: 100px;
     padding-right: 100px;
     margin-top: 50px;
     margin-left: 10px;
-    background-color: #ffffff;
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-color: dimgray;
     border-width: 1px;
     border-style: solid;
@@ -92,18 +94,22 @@ h1 {
     float: left;
     display: block;
     background-color: #66a8a4;
-    width: 150px;
+    width: 200px;
     height: 48px;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(2, 250, 56), rgb(10, 49, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
     color: white;
     border-radius: 2px;
 }
 ul {
     float: right;
     font-size: 20px;
-    color: #b7aaa7;
-    padding-top: 25px;
+    color: #f5cbc2;
+    padding-top: 15px;
     margin-bottom: 15px;
 }
 a {
@@ -136,6 +142,10 @@ h2 {
     color: cadetblue;
     background-color: #ffffff;
     font-size: 25px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(2, 250, 56), rgb(10, 49, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     display: inline-block;
     width: 590px;
     padding-bottom: 25px;
@@ -154,6 +164,10 @@ p {
 h3 {
     color: #66a8a4;
     font-size: 20px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(2, 250, 56), rgb(10, 49, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
     display: inline-block;
     width: 215px;
@@ -191,7 +205,7 @@ aside {
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 footer {
-    background-color: dimgrey;
+    background-color: #273636;
     color: #ffffff;
     padding: 30px;
     text-align: center;
